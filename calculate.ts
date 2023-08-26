@@ -13,11 +13,14 @@ const answers = await inquirer.prompt ([
     type: "number"
     },
     {
-        name: "operator",
-        message: "Select the operator",
-        choices: ["+","-","*","/"],
-        type: "list",
+     name: "operator",
+    message:"Enter the operator",
+    choices:["+","-","*","/"],
+    type:"list"
     }
-])
+    ])
+    
 const result = sum(answers.num1, answers.num2)
 console.log (`result is ${result}`)
+const result2 = sum2(answers.num1, answers.num2)
+console.log (`result is ${result2}`)

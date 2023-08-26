@@ -1,5 +1,6 @@
 import { sum } from "./add.js";
 import inquirer from "inquirer";
+import { sum2 } from "./subtract.js";
 const answers = await inquirer.prompt([
     {
         name: "num1",
@@ -13,10 +14,12 @@ const answers = await inquirer.prompt([
     },
     {
         name: "operator",
-        message: "Select the operator",
+        message: "Enter the operator",
         choices: ["+", "-", "*", "/"],
-        type: "list",
+        type: "list"
     }
 ]);
 const result = sum(answers.num1, answers.num2);
 console.log(`result is ${result}`);
+const result2 = sum2(answers.num1, answers.num2);
+console.log(`result is ${result2}`);
