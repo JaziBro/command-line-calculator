@@ -1,3 +1,4 @@
+#!/usr/bin/env Node
 import {sum} from "./add.js"
 import {sum2} from "./subtract.js"
 import {sum3} from "./multiply.js"
@@ -34,7 +35,6 @@ console.log (`result is ${result}`)
     const result = sum4(answers.num1, answers.num2)
 console.log (`result is ${result}`)
 }
-
 
 
 
