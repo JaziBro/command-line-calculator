@@ -1,3 +1,4 @@
+#!/usr/bin/env Node
 import { sum } from "./add.js";
 import { sum2 } from "./subtract.js";
 import { sum3 } from "./multiply.js";
