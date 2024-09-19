@@ -17,18 +17,16 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
    git clone https://github.com/your-username/your-repository-name.git
    
 2. Navigate to the project directory:
-
   ```bash
   cd your-repository-name
   ```
 
 3. Install the necessary dependencies:
-
  ``` bash
   npm install
   ```
 
-### unning the Calculator
+### Running the Calculator
 After installation, start the calculator by running the following command:
 
  ``` bash
